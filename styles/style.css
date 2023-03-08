@@ -111,7 +111,7 @@ strong {
 
 .textoFooter {
     text-align: center;
-    padding: 2%;
+    padding: 1%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
@@ -135,7 +135,7 @@ strong {
     }
 
     .footer {
-        font-size: 0.75rem;
+        font-size: 10px;
     }
 
     .textoELinks {
