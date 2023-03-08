@@ -72,16 +72,17 @@ strong {
 }
 
 .links_links {
+    display: flex;
     border-radius: 5px;
     border: 1px solid #22D4FD;
-    padding: 2% 15% 2% 15%; /* top, right, bottom, left */
+    padding: 2% 15%;
     margin: 2%;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.80rem;
     color: #F6F6F6;
     font-weight: 500;
     width: 4rem;
-    text-align: center;
+    justify-content: center;
 }
 
 .acesseRedes {
@@ -92,6 +93,11 @@ strong {
 
 .links_links:hover {
     background-color: rgb(19, 19, 19);
+}
+
+.iconesSociais {
+    padding-right: 7%;
+    width: 25%;
 }
 
 .footer {
