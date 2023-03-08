@@ -64,6 +64,13 @@ strong {
     width: 45%;
 }
 
+.acesseRedes {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+
 .links {
     display: flex;
     flex-direction: column;
@@ -72,23 +79,24 @@ strong {
 }
 
 .links_links {
+    display: flex;
     border-radius: 5px;
     border: 1px solid #22D4FD;
-    padding: 2% 15% 2% 15%; /* top, right, bottom, left */
+    padding: 2% 15%;
     margin: 2%;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.80rem;
     color: #F6F6F6;
     font-weight: 500;
     width: 4rem;
-    text-align: center;
+    justify-content: center;
 }
 
-.acesseRedes {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.1rem;
-    font-weight: 100;
+.iconesSociais {
+    padding-right: 7%;
+    width: 25%;
 }
+
 
 .links_links:hover {
     background-color: rgb(19, 19, 19);
@@ -111,6 +119,8 @@ strong {
 @media (max-width: 1200px) {
     .minhaFoto {
         width: 40%;
+        position: relative;
+        bottom: 3rem;
     }
 
     .nav {
@@ -120,11 +130,22 @@ strong {
     }
 
     .todoConteudo {
-        flex-direction: column-reverse;
+        flex-direction: row-reverse;
         padding: 3% 3% 80% 3%;
     }
 
     .footer {
         font-size: 0.75rem;
+    }
+
+    .textoELinks {
+        position: relative;
+        top: 1.9rem;
+    }
+
+    .links {
+        position: relative;
+        top: 1.8rem;
+        right: 6rem;
     }
 }
