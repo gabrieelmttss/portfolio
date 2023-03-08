@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,400;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    color: #22D4FD;
+}
+
+.nav {
+    display: flex;
+    padding: 2% 25% 0% 25%; /* top, right, bottom, left */
+    gap: 5%;
+}
+
+.nav__links {
+    color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.texto1eleve {
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.20rem;
+    font-weight: 100;
+}
+
+.texto2ola {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85rem;
+}
+
+.todoConteudo {
+    display: flex;
+    flex-direction: row; /* define o eixo horizontal como o principal */
+    padding: 5% 25% 20% 25%; /* top, right, bottom, left */
+    align-items: center;
+    color: white;
+    justify-content: space-between; /* distribui o espaço horizontalmente */
+    gap: 10px;
+    min-height: 100%;
+}
+
+.textoELinks {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.minhaFoto {
+    width: 45%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.links_links {
+    border-radius: 5px;
+    border: 1px solid #22D4FD;
+    padding: 2% 15% 2% 15%; /* top, right, bottom, left */
+    margin: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.80rem;
+    color: #F6F6F6;
+    font-weight: 500;
+    width: 4rem;
+    text-align: center;
+}
+
+.acesseRedes {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+.links_links:hover {
+    background-color: rgb(19, 19, 19);
+}
+
+.footer {
+    background-color: #22D4FD;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.textoFooter {
+    text-align: center;
+    padding: 1%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+    .minhaFoto {
+        width: 40%;
+    }
+
+    .nav {
+        justify-content: center;
+        padding: 5% 25% 0% 25%; /* top, right, bottom, left */
+
+    }
+
+    .todoConteudo {
+        flex-direction: column-reverse;
+        padding: 3% 3%;
+    }
+}
