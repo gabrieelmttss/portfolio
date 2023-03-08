@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-body {
+html, body {
     background-color: black;
     box-sizing: border-box;
     height: 100%;
@@ -96,7 +96,9 @@ strong {
 .footer {
     background-color: #22D4FD;
     width: 100%;
-}
+    position: relative;
+    bottom: 0;
+}   
 
 .textoFooter {
     text-align: center;
@@ -118,6 +120,10 @@ strong {
 
     .todoConteudo {
         flex-direction: column-reverse;
-        padding: 3% 3% 20% 3%;
+        padding: 3% 3% 80% 3%;
+    }
+
+    .footer {
+        font-size: 10px;
     }
 }
